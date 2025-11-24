@@ -23,19 +23,19 @@ python analise_meteorologica.py
  O que o script faz?
 
  Lê o arquivo CSV
- Limpa e organiza os dados
- Calcula estatísticas importantes
+ Limpa e organiza os dados;
+ Calcula estatísticas importantes;
  Gera gráficos:
 
-Precipitação ao longo do tempo
-
-Temperatura máxima
-Temperatura mínima
-Temperatura média
+Precipitação ao longo do tempo;
+Temperatura máxima;
+Temperatura mínima;
+Temperatura média.
 
 Exemplo de Gráficos:
 
 O script gera gráficos automaticamente, como por exemplo:
-Variação da precipitação
-Temperaturas máximas e mínimas
-Temperatura média
+
+Variação da precipitação;
+Temperaturas máximas e mínimas;
+Temperatura média.
