@@ -1,37 +1,80 @@
-Este projeto realiza a análise de um conjunto de dados meteorológicos fornecido em um arquivo CSV.
-O foco é analisar precipitação, temperatura máxima, temperatura mínima e temperatura média, além de gerar visualizações gráficas.
+# 🌤️ Análise Meteorológica — Projeto de Lógica e Programação de Computadores
 
+Este projeto realiza uma análise de dados meteorológicos utilizando Python.  
+Os dados são carregados a partir de um arquivo CSV contendo informações históricas de:
 
-Tecnologias Utilizadas:
+- 🌧️ Precipitação 
+- 🌡️ Temperatura Máxima 
+- 🧊 Temperatura Mínima 
+- 🌥️ Temperatura Média
+
+O objetivo é praticar lógica, processamento de dados, listas, funções e visualização gráfica.
+
+🛠️ Tecnologias Utilizadas
+
 Python 3.x
-Pandas — Manipulação de dados
-Matplotlib — Geração de gráficos
 
+matplotlib (para gráficos)
 
-Como Executar o Projeto:
-1️ Criar e ativar o ambiente virtual
-python -m venv venv
-venv\Scripts\activate     # Windows
+pandas (para leitura e manipulação do CSV)
 
-2️ Instalar as dependências
-pip install pandas matplotlib
+Instale as dependências com:
+pip install matplotlib pandas
 
-3️ Executar o script
+▶️ Como Executar
+
+No terminal:
+
 python analise_meteorologica.py
 
-O que o script faz?
-Lê o arquivo CSV;
-Limpa e organiza os dados;
-Calcula estatísticas importantes.
 
+O programa irá:
 
-Gera gráficos:
-Precipitação ao longo do tempo;
-Temperatura máxima;
-Temperatura mínima;
-Temperatura média.
+Carregar o arquivo CSV
 
-O script gera gráficos automaticamente, como por exemplo:
-Variação da precipitação;
-Temperaturas máximas e mínimas;
-Temperatura média.
+Converter os dados em listas
+
+Gerar estatísticas como:
+
+Maior temperatura máxima
+
+Menor temperatura mínima
+
+Média das temperaturas e precipitação
+
+Exibir um gráfico de barras mostrando os maiores valores de cada categoria
+
+📊 Exemplo de Saída
+
+Maior temperatura máxima registrada
+
+Menor temperatura mínima
+
+Média da precipitação
+
+Gráfico com:
+
+Maior precipitação
+
+Maior temperatura máxima
+
+Maior temperatura média
+
+🎯 Objetivos do Trabalho
+
+Este projeto atende aos requisitos típicos de trabalhos acadêmicos envolvendo:
+
+Leitura de arquivos CSV
+
+Manipulação de listas
+
+Uso de funções
+
+Estruturação modular do código
+
+Análise de dados
+
+Construção de gráficos
+
+Boas práticas de programação
+
