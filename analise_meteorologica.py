@@ -15,7 +15,7 @@ def carregar_dados(nome_arquivo):
     try:
         with open(nome_arquivo, "r", encoding="utf-8") as f:
             leitor = csv.reader(f)
-            next(leitor)  # pula cabeçalho
+            next(leitor)  # ignora o cabeçalho
 
             for linha in leitor:
                 if len(linha) < 6:
